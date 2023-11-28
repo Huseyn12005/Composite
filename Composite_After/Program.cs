@@ -16,8 +16,6 @@
     //        this.name = name_;
     //        this.mehsulList = new List<Mehsul>();
     //    }
-
-    //    public string getName() { return name; }
     //    public List<Mehsul> getMehsulList() { return mehsulList; }
 
     //    public double getPrice()
@@ -43,7 +41,6 @@
             return price;
         }
 
-        public string getName() { return name; }
 
 
     }
@@ -88,8 +85,6 @@
             this.name = name_;
             this.mehsulList = new List<Mehsul>();
         }
-
-        public string getName() { return name; }
         public List<Mehsul > getMehsulList() { return mehsulList; }
     }
 

@@ -27,8 +27,6 @@ namespace Composite
             this.price = price_;
         }
 
-        public string getName() { return name; }
-
         public double getPrice() { return price; }
     }
 
@@ -42,8 +40,6 @@ namespace Composite
             this.name = name_;
             this.mehsulList = new List<Mehsul>();
         }
-
-        public string getName() { return name; }
         public List<Mehsul> getMehsulList() {  return mehsulList; }
         
     }
